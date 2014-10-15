@@ -51,7 +51,7 @@ soloViolinBB =  \relative c' {
     f8 a' e, g' d,16 g' f e d c b a |
     b f' e d e b a gis a e' d c d a gis! fis |
     gis d' c b c b a c b a gis! fis e8 r |
-    %47
+    %46
     a16^"tutti" b c d e8 a gis e b d |
     cis a g'!4 ~ g8 fis16 e fis8 d |
     b d f! a, gis e' a, d |
