@@ -10,7 +10,7 @@ soloViolinCB =  \relative c' {
     f4 e\trill d16 cis d e fis gis a b |
 
     %5 violin 1
-    c b c d e8 a gis e b d |
+    a b c d e8 a gis e b d |
     cis a g'!4. fis16 e fis8 d |
     b d f a, gis e' a, d |
     c4 b\trill a16 gis a b c d e f |
@@ -70,7 +70,7 @@ soloViolinCB =  \relative c' {
     a16^"tutti" b c d e8 a gis e b d |
     cis a g'!4 ~ g8 fis16 e fis8 d |
     b d f! a, gis e' a, d |
-    c4 b\trill a'8 g16 f e d c b |
+    c4 b\trill a4 ~ a8 c16 b |
 
     %50 violin 2
     a( c  e) a b,( d  e) gis a e c a gis( b  d) e |
