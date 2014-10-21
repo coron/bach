@@ -10,7 +10,7 @@
 }
 
 \include "single_violin_1.ly"
-%\include "solo_violin2_2.ly"
+\include "single_violin_2.ly"
 %\include "solo_violin2_3.ly"
 
 \version "2.16.0"
@@ -33,9 +33,7 @@
     }
 }
 
-
 % 2nd movement
-%{
 \score {
      \context Voice = SoloViolinII {
         \set Staff.midiInstrument = "violin"
@@ -44,7 +42,7 @@
         \soloViolinCC
     }
     \header {
-	piece = "Largo ma non tanto"
+	piece = "Largo, ma non tanto"
         opus = ""
     }
     \layout {}
@@ -52,7 +50,6 @@
       \tempo 4 = 48
     }
 }
-%}
 
 % 3rd movement
 %{
