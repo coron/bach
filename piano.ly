@@ -17,6 +17,34 @@
 \include "piano_l_2.ly"
 
 
+\score {
+       <<
+       \new Staff \with { 
+       fontSize = #-2 
+       \override StaffSymbol.staff-space = #(magstep -2) } 
+       {
+            \key f \major
+	    \time 12/8
+	    \soloViolinCC
+	}
+
+       \new PianoStaff <<
+         \new Staff {
+	    \key f \major
+	    \time 12/8
+    	    \pianoH
+          }
+	  \new Staff {
+	     \key f \major
+	     \time 12/8
+	     \clef "bass"
+    	     \pianoL
+	  }
+        >>
+       >>
+}
+
+%{
 % 2nd movement
 \score {
     \context StaffGroup = "fullscore"  <<
@@ -49,3 +77,4 @@
     }
 }
 
+%}

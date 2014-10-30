@@ -27,15 +27,36 @@ pianoH =  \relative c' {
     bes'4 r8 r8 bes4 << { c4 r8 r4 <f, a>8 } \\
     	       	       { f4 r8 r4. } >> |
 
-    f4 r8 es4 r8 bes4 r8 g4 r8 |
-    c4 f,8 c'4 a8 f4 bes8 g'4 g8 |
-    f4 r8 bes4 r8 a4 r8 d,4 r8 |
-    c4 f8 g4 e8 c4 r8 r r a |
-    bes4 r8 r r g a4 r8 r r f |
-    g4 r8 r r c c4 f,8 c'4 bes8 |
-    a4 r8 r4. r2. |
-    r8 r f' d4 bes8 r r f' c4 a8 |
-    r r d bes4 g8 f4. r4. |
+    << { bes'4. ~ bes8 a g f4. ~ f8 ees d} \\
+       { bes4 r8 ees4 r8 <bes d>4 r8 bes4 r8} >> | 		       
+
+    << { c a bes ees4. bes4.} \\
+       { a4 f8 g4 f8 f4.} >> < g d' f>4 <g c e>8 |
+
+    << { f'4. ~ f8 e d c4. ~ c8 bes a } \\
+       { <a c>4 r8 <g bes>4 r8 <f f'>4 r8 <f d' f>4 r8 } >> |  
+
+    g e f bes4. ~ bes8 a bes c4 << { c8 ~ } \\ { ees,8 ~ } >> |
+
+    << { c'8 bes f bes4 bes8 ~ bes a e a4 a8 ~ } \\
+       { ees8 d r8 r4 d8 ~ d8 c r8 r4 c8 ~} >> |
+
+    << { a'8 g d g4 g8 ~ g8 f f ~ f g e } \\
+       { c bes r8 r4 bes8 ~ bes a r8 r4. } >> | 
+
+    <a c f>4 r8 d-. c-. bes-. a4 r8 d-. c-. bes-. |   
+
+    a4 <f' bes>8 <d f bes>4 <bes d f>8 f'4 r8 a4. |
+
+    %18
+    bes4. g4. a4. f4. ~ |
+    
+    f8 e8 r8 << { g'4 g8 ~ g f c f4 f8 ~ } \\
+       	     	{ r4 bes,8 ~ bes a r8 r4 a8 ~ } >> |	
+
+    << { f'8 e b e4 e8 ~ e8 d a d4 d8 } \\
+       { a8 g r8 r4 g8 ~ g8 f r8 r4 f8} >> |
+
     r4. r8 r e' f4 r8 r r d |
     e4 r8 r r c d4 r8 r r g |
     g,4 r8 r4. r2. |
