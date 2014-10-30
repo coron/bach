@@ -16,22 +16,23 @@ pianoH =  \relative c' {
        { f4 r8 r4 e8 ~ e4 r8 r4 d8 ~} >> |
 
     << { <a' c>8 <g bes> d' g4 bes,8 ~ bes a d } \\
-       { d,4 r8 r4 e8 c4 r8 } >> < g' bes d>4 <e a cis>8 |   
+       { d,4 r8 r4 e8 c4 r8 } >> < g' bes d>4 <a cis>8 |   
 
-    << { d'4. ~ d8 c bes a4. ~ a8 g f } \\
+    << { d4. ~ d8 c bes a4. ~ a8 g f } \\
        { <f a>4 r8 g4 r8 <f c'>4 r8 <d f bes>4 r8 } >> |
 
-    e8 cis d g4. << { d'4 r8 r8 a4 } \\
-       	     	    { a4 r8 r8 r8 <d, fis> } >> |
+    %8
+    e8 cis d g4 <a cis e>8 << { d4 r8 r4 c8 } \\
+       	     	       	      { a4 <fis a>8 <d a'>4 <d fis>8 } >> |
    
-    bes'4 r8 r8 bes4 << { c4 r8 r4 <f, a>8 } \\
-    	       	       { f4 r8 r4. } >> |
+    << { bes'4 r8 r4 g8 f4 r8 r4 a8} \\
+       { d,4 g8 <d g>4 ees8 ees4 a8 <f c'>4 f8} >> |
 
     << { bes'4. ~ bes8 a g f4. ~ f8 ees d} \\
        { bes4 r8 ees4 r8 <bes d>4 r8 bes4 r8} >> | 		       
 
-    << { c a bes ees4. bes4.} \\
-       { a4 f8 g4 f8 f4.} >> < g d' f>4 <g c e>8 |
+    << { c a bes } \\
+       { a4 f8} >> <g ees'>4 <f c'>8 <f bes>4 <bes d f>8 < g d' f>4 <g c e>8 |
 
     << { f'4. ~ f8 e d c4. ~ c8 bes a } \\
        { <a c>4 r8 <g bes>4 r8 <f f'>4 r8 <f d' f>4 r8 } >> |  
@@ -46,16 +47,22 @@ pianoH =  \relative c' {
 
     <a c f>4 r8 d-. c-. bes-. a4 r8 d-. c-. bes-. |   
 
-    a4 <f' bes>8 <d f bes>4 <bes d f>8 f'4 r8 a4. |
+    a4 <f' bes d>8 <d f bes>4 <bes d f>8 r4 <f' a c>8 <c f a>4 <a c f>8  |
 
     %18
-    bes4. g4. a4. f4. ~ |
+    r4 <d f bes>8 <bes e g>4 <g bes e>8 <c a'>4. q4 g'8 |
     
     f8 e8 r8 << { g'4 g8 ~ g f c f4 f8 ~ } \\
        	     	{ r4 bes,8 ~ bes a r8 r4 a8 ~ } >> |	
 
     << { f'8 e b e4 e8 ~ e8 d a d4 d8 } \\
        { a8 g r8 r4 g8 ~ g8 f r8 r4 f8} >> |
+
+    %21
+    << { <g c>4 }  \\
+       { f8 e8 } >> r8 a-. g-. f-. <e c'>4 r8 a-. g-. f-. |
+   
+    e4 <c' f a>8 <a c f>4 <f a c>8 r4 <c' e g>8 <g c e>4 <e g c>8 |
 
     r4. r8 r e' f4 r8 r r d |
     e4 r8 r r c d4 r8 r r g |

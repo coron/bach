@@ -13,8 +13,8 @@ pianoL =  \relative c' {
     d4 d,8 e4 e'8 f4 f,8 g4 g'8 |
 
     %8
-    g4 f8 e4 a8 <d, a'>4 d'8 fis,4 d8 |
-    g4 es'8 g,4 es8 <a ees'>4 f'8 a,4 <f ees'>8 |
+    g4 f8 e4 a8 d,4 d'8 fis,4 d8 |
+    g4 es'8 g,4 <es c'>8 <a c>4 f'8 a,4 <f ees'>8 |
 
     %10
     <bes d>4 bes,8 c4 c'8 d4 d,8 es4 es'8 |
@@ -26,8 +26,8 @@ pianoL =  \relative c' {
     f4\pp f'8 f4 f,8 f4 f'8 f4 f,8 | 
 
     %17
-    f4 r8 <f f'>4 r8 <f f'>4 r8 <c'' f>4 <a c f>8 |
-    f,4 r8 <f f'>4 r8 f8 g a d,4 g8 | 
+    f4 r8 f'4 r8 f,4 r8 f'4 r8 |
+    f,4 r8 f'4 r8 f,8 g a d,4 g8 | 
     c4 d8 e4 c8 f4 e8 d4 b8 |
     e4 d8 c4 a8 d4 c8 b4 g8 |
 
