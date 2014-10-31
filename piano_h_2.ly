@@ -1,8 +1,6 @@
 \version "2.16.0"
-%Viola, 2nd movement
 
-pianoH =  \relative c' {
-    <c f a>4  r8 <bes g' bes>4 r8 <c f c'>4 r8 <d f bes>4 r8 |
+mtwotofive = {
     << { e'8 c f f d e f4 } \\
        { g,4 c8 bes4 <g c>8 <f c'>4 } >> <f a c>8 q4 <g b>8 |
     %3
@@ -14,7 +12,14 @@ pianoH =  \relative c' {
 
     << { <c' es>8 <bes d> f' bes4 <bes, d>8~ q <a c> e' a4 <a, c>8 ~ } \\
        { f4 r8 r4 e8 ~ e4 r8 r4 d8 ~} >> |
+}
 
+pianoH =  \relative c' {
+    <c f a>4  r8 <bes g' bes>4 r8 <c f c'>4 r8 <d f bes>4 r8 |
+
+    \mtwotofive
+    
+    %6
     << { <a' c>8 <g bes> d' g4 bes,8 ~ bes a d } \\
        { d,4 r8 r4 e8 c4 r8 } >> < g' bes d>4 <a cis>8 |   
 
@@ -100,6 +105,25 @@ pianoH =  \relative c' {
 
     %36 
     <d bes'>4 <g bes>8 q4 <g bes ees>8 <f! c'>4 <a c>8 <f c'>4 <a f'>8 |
+
+    d g4 ~ g8 a bes f4. ~ f8 a bes |
+
+    ees,4. <ees, a c>4 <c ees a>8 <f d'>8 bes, d f bes d | 
+
+    %39
+    c16 b ~ b8 d, g,4 d'8 <g c ees>4. ~ q4 q8 |
+
+    d'16 cis ~ cis4 ~ cis4 e8 <a, d f>4 <bes d f>8 <g c g'>4 <e bes'>8 | 
+
+    <c f a>4  r8 <bes d bes'>4 r8 <f' c'>4 r8 <f d'>4 r8 |
+
+    %42 to 45 are the same as 2 to 5
+
+    \mtwotofive
+
+    %46
+    << { <a' c>8 <g bes> d' g4 bes,8 ~ bes a} \\
+       { d,4 r8 r4 e8 c4} >> r8 d8-. c-. bes-. |
 
     r4. r8 r e' f4 r8 r r d |
     e4 r8 r r c d4 r8 r r g |

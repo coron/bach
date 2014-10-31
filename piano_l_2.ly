@@ -1,14 +1,20 @@
 \version "2.16.0"
 %Continuo, 2nd movement
 
-pianoL =  \relative c' {
-    f,4\p f,8 g4 g'8 a4 a,8 bes4 bes'8 |
-    < bes c>4 <a c>8 <g d'>4 c8 f,4 a8 d,4 g8 |
+ltwotofive= {
+  < bes c>4 <a c>8 <g d'>4 c8 f,4 a8 d,4 g8 |
     c,4 c,8 d4 d'8 e4 e,8 f4 f'8 |
 
-    %4
     <f g>4 <e g>8 <d d'>4 <g b>8 <c, g'>4 bes!8 a4 f'8 | 
     bes,4 a8 g4 e'8 a,4 g8 f4 d'8 |
+}
+
+pianoL =  \relative c' {
+    f,4\p f,8 g4 g'8 a4 a,8 bes4 bes'8 |
+
+    \ltwotofive
+
+    %6
     g,4 f8 e4 c8 f4 bes8 e,4 a8 |
     d4 d,8 e4 e'8 f4 f,8 g4 g'8 |
 
@@ -54,16 +60,23 @@ pianoL =  \relative c' {
     <g a>4 <f a>8 <e e'>4 <a cis>8 <d, d'>4 d,8 d4 d'8 |
     d4 d,8 d4 d'8 d4 d'8 fis,4 d8 |
     g4 es'8 g,4 es8 a4 f'8 a,4 f8 |
-    bes4 r8 bes,4 r8 bes'4 r8 bes,4 r8 | 
-    bes'4 r8 bes,4 r8 bes'8( bes  bes) as( as  as) | 
+
+    %37
+    <bes f'>4 \clef treble <d bes'>8 <g bes ees>4 <ees g bes>8 bes4 <bes' d>8 <f bes d>4 <d f bes>8 |
+
+    \clef bass bes4 r8 bes,4 r8 bes'8( bes  bes) as( as  as) | 
     g4 g,8 g4 g'8 c( c  c) bes( bes  bes) | 
-    a4 a,8 a4 a'8 d4 d,8 e4 c8 |
+
+    %40
+    \clef treble <a a'>4 e'!8 a,4 a'8 <d, a'>4 \clef bass d,8 e4 c8 |
     f4 f,8 g4 g'8 a4 a,8 bes4 bes'8 |
-    bes4 a8 g4 c8 f,4 a8 d,4 g8 |
-    c,4 c,8 d4 d'8 e4 e,8 f4 f'8 |
-    f4 e8 d4 g8 c,4 bes8 a4 f8 |
-    bes4 a8 g4 e8 a4 g8 f4 d8 |
-    g4 f8 e4 c8 f4 f'8-"tasto solo" f4 f,8 | 
+
+    \ltwotofive
+
+    %46 
+    g,4 f8 e4 c8 f4 f'8 f4 f,8 | 
+
+    
     f4 f'8 f4 f,8 f4 f'8\p a4 f8 | 
     bes4 a8 g4 e8 a4 g8 f4 d8 |
     g4 f8 e4 c8 f4 d8\f c4 c,8 | 
