@@ -88,7 +88,7 @@ soloViolinCC =  \relative c' {
     bes16  fis( g a bes  c) d f!( es d c  bes) c g( a bes c  d) es g( f es d  c) |
 
     %37 violin 1 and 2
-    d8. as16 g  f es8 a'(  bes) f a, bes d,  a''(  bes) |
+    d8 bes16 aes g  f es8 a'(  bes) f a, bes d,  a''(  bes) |
 
     %38 violin 1 and 2
     es, a, bes c, a''8.( bes32  c) d,16( c  d) bes f bes d( c  d) bes f bes |
