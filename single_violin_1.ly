@@ -1,10 +1,10 @@
 \version "2.16.0"
-%Solo Violin 2, 1st movement
 
+vivace = \markup {\raise #1  \large Vivace}
  
 soloViolinCB =  \relative c' {
     %1 violin 2	     
-    d16 e f g a8 d cis a e g |
+    d16^\vivace e f g a8 d cis a e g |
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
     f4 e\trill d16 cis d e fis gis a b |
@@ -31,10 +31,10 @@ soloViolinCB =  \relative c' {
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
     f4 e\trill d8  c!16[ bes!] a g f e |
-    f8-"solo" a' e, g' d,16 g' f e d c bes a |
+    f8^"solo" a' e, g' d,16 g' f e d c bes a |
     bes8 d' a, c' g,16 c' bes a g f e d |
     e bes' a g a e d cis d a' g f g d cis! b |
-    cis g' f e f e d f e d cis! b a g-"solo" f e |
+    cis g' f e f e d f e d cis! b a g^"solo" f e |
 
     %26 violin 2
     f8 a' e, g' d,16 g' f e d c bes a |
@@ -122,7 +122,7 @@ soloViolinCB =  \relative c' {
     cis g' f e f e d f e d cis! b a8 r |
 
     %85 violin 1
-    r a-"tutti" d d' cis a e g |
+    r a^"tutti" d d' cis a e g |
     fis d c'!4 ~ c8 b16 a b8 g |
     e g bes! d, cis a' d, g |
     f4 e d2^\fermata |

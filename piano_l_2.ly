@@ -1,5 +1,4 @@
 \version "2.16.0"
-%Continuo, 2nd movement
 
 ltwotofive= {
   < bes c>4 <a c>8 <g d'>4 c8 f,4 a8 d,4 g8 |
@@ -10,7 +9,7 @@ ltwotofive= {
 }
 
 pianoL =  \relative c' {
-    f,4\p f,8 g4 g'8 a4 a,8 bes4 bes'8 |
+    f,4 f,8 g4 g'8 a4 a,8 bes4 bes'8 |
 
     \ltwotofive
 
@@ -29,7 +28,7 @@ pianoL =  \relative c' {
     bes4 a8 g4 c,8 f4 g8 a4 f8 |
     bes4 a8 g4 e8 a4 g8 f4 d8 |
     g4 f8 e4 c8 f4 d8 c4 c,8 |
-    f4\pp f'8 f4 f,8 f4 f'8 f4 f,8 | 
+    f4 f'8 f4 f,8 f4 f'8 f4 f,8 | 
 
     %17
     f4 r8 f'4 r8 f,4 r8 f'4 r8 |
@@ -77,9 +76,9 @@ pianoL =  \relative c' {
     g,4 f8 e4 c8 f4 f'8 f4 f,8 | 
 
     
-    f4 f'8 f4 f,8 f4 f'8\p a4 f8 | 
+    f4 f'8 f4 f,8 f4 f'8 a4 f8 | 
     bes4 a8 g4 e8 a4 g8 f4 d8 |
-    g4 f8 e4 c8 f4 d8\f c4 c,8 | 
+    g4 f8 e4 c8 f4 d8 c4 c,8 | 
     f4. r r2. | 
     
     \bar "|." 

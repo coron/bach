@@ -1,9 +1,12 @@
 \version "2.16.0"
+
 %Solo Violin 2, 2nd movement
+
+largo = \markup {\raise #1 \large {Largo, ma non tanto}}
 
 soloViolinCC =  \relative c' {
     %1 violin 2
-    f'4. ~ f8 e d c4. ~ c8 bes a |
+    f'4.^\largo ~ f8 e d c4. ~ c8 bes a |
     g e f bes4. ~ bes8 a c f g16 f e d |
     e( d  e) c g c f( e  f) d b d g( f  g) e c e a( g  a) f g a |
     b,8 g' c,  f a, b!\trill c16( b  c) g e g f( g a bes  c) a |
@@ -110,8 +113,10 @@ soloViolinCC =  \relative c' {
     f( es  f) bes d, f e( f g a  bes) g e( d  e) a c, e d( e f g  a) f |
     d( c  d) g bes, d c( d e f  g) e f(  c) d bes c8 bes'-. a-. g-. |
 
-    %47 violin 1
-    f16   c  d bes c8-. bes'-. a-. g-. f c''4\p ~ c16 bes a bes c a |
+    %47 violin 1 and 2
+    f16   c  d bes c8-. bes'-. a-. g-. f16 c' f g a bes c bes a bes c a |
+
+    %48 violin 1
     f( e  f) bes d, f e( f g a  bes) g e( d  e) a c, e d( e f g  a) f |
     d( c  d) g bes, d c( d e f  g) e  c[( bes  c) f] bes,8-.\f a(  bes) g |
     f4. r r2. |

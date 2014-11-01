@@ -5,7 +5,7 @@
 
 \header {
     \include "header.ly"
-    subtitle =	"for two violins and strings (Single Violin transcription)"
+    subtitle =	"for two violins and strings (single violin transcription)"
     filename = "single_violin.ly"
 }
 
@@ -23,10 +23,6 @@
         \time 4/4
         \soloViolinCB
     }
-    \header {
-	piece = "Vivace"
-        opus = ""
-    }
     \layout {}
     \midi {
       \tempo 4 = 100
@@ -40,10 +36,6 @@
         \key f \major
         \time 12/8
         \soloViolinCC
-    }
-    \header {
-	piece = "Largo, ma non tanto"
-        opus = ""
     }
     \layout {}
     \midi {
