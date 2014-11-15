@@ -5,7 +5,7 @@
 
 \header {
     \include "header.ly"
-    subtitle = "for two violins and strings (Score)"
+    subtitle = "Second movement. For two violins and strings (single violin transcription)"
     % Want "Score" to appear in subtitle
     filename = "score.ly"
 }
