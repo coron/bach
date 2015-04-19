@@ -12,6 +12,7 @@
           \theSolo
 	  \theSolob
 	  \theSoloc
+	  \macadence
 	  \theSolod
       	}
         \layout {}

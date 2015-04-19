@@ -4,9 +4,8 @@
 
 theSolo =  \relative d' {
 	
-%	r1
 \compressFullBarRests	
-	R1*21
+	R1*22
 	
 	%%% SOLO %%%
 	
@@ -271,7 +270,7 @@ theSolobak = {
 }
 
 theSoloc = \relative d' {
-	R1*3 
+	R1*14 
 	b''8\f[ \grace { b16[ c] } b( ais] b8)[ \grace { b16[ c] } b16(
 	ais] b[ gis e dis]) e[( fis gis a])
 	|
@@ -300,9 +299,10 @@ theSoloc = \relative d' {
 	>-. a''-.( g-.)]			|
 
 	< a, f' >-.[ < d, a' >-. < d a' >-. gis'-.] a[( a,)
-	g'-. f-.] e8 gis
- a4\trill~
-a1\trill}
+	g'-. f-.] e4 gis
+% a4\trill~
+%a1\trill
+}
 
 finmesure = {
 e-.[ < a,, e' a >-. gis''-. < a,, e' a >-.]
@@ -310,16 +310,17 @@ e-.[ < a,, e' a >-. gis''-. < a,, e' a >-.]
 		a''-.[ < a,, e' a >-. f''-.( e-.])
 }
 
-theSolodbak = \relative d' {
-%	\tuplet 3/2 { a16[( bes! a) } 
-%	\tuplet 3/2 { a'( bes! a]) } 
-%	 \tuplet 3/2 { a'[( bes! a)] } 
-%	 \tuplet 3/2 { a,[( bes! a]) } 
-%	 \tuplet 3/2 { a'[( bes a]) } 
-%	 \tuplet 3/2 { a'[( bes a])) } 
-%	 \tuplet 3/2 { a,[( bes a]) } 
-%	 \tuplet 3/2 { a,[( bes a])) }
-	\tuplet 3/2 { a16[( bes a]) } 
+macadence = \relative d' {
+	\tuplet 3/2 { a16^\markup{Cadenza}[( bes! a) } 
+	\tuplet 3/2 { a'( bes! a]) } 
+	 \tuplet 3/2 { a'[( bes! a)] } 
+	 \tuplet 3/2 { a,[( bes! a]) } 
+	 \tuplet 3/2 { a'[( bes a]) } 
+	 \tuplet 3/2 { a'[( bes a])) } 
+	 \tuplet 3/2 { a,[( bes a]) } 
+	 \tuplet 3/2 { a,[( bes a])) }
+
+	\tuplet 3/2 { a,16[( bes a]) } 
 	\tuplet 3/2 { a'[( bes a])) } 
 	\tuplet 3/2 { a'[( bes a]) } 
 	\tuplet 3/2 { a,[( bes a])) }

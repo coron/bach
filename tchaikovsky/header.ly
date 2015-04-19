@@ -1,5 +1,5 @@
 	title 				= "Violin-Konzert."
-	subtitle 			= "I. Allegro Moderato"
+	subtitle 			= "I. Allegro Moderato (v1.0)"
 	opus				= "Op. 35"
 	composer			= "P. Tschaikowsky. 1840-1893"
 	
