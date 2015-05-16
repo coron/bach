@@ -9,25 +9,12 @@
     filename = "single_violin.ly"
 }
 
-\include "single_violin_1.ly"
+%\include "single_violin_1.ly"
 \include "single_violin_2.ly"
 %\include "solo_violin2_3.ly"
 
 \version "2.16.0"
 
-% 1st movement
-\score {
-     \context Voice = SingleViolin {
-        \set Staff.midiInstrument = "violin"
-        \key d \minor
-        \time 4/4
-        \soloViolinCB
-    }
-    \layout {}
-    \midi {
-      \tempo 4 = 100
-    }
-}
 
 % 2nd movement
 \score {
