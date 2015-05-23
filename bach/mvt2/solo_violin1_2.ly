@@ -2,9 +2,9 @@
 %Solo Violin 1, 2nd movement
 
 soloViolinBC =  \relative c' {
-
+	     \tempo "Largo, ma non tanto"
+      R1.  |
     R1. |
-    R |
     c''4. ~ c8 b a g4. ~ g8 f e |
     d b c f4. ~ f8 e g c4 es,8 ~ |
     es d f bes4 d,8 ~ d c e a4 c,8 ~ |

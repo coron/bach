@@ -1,12 +1,9 @@
 % This file creates the score.
 
-% The edition from which this was typed has orchestral accompaniment.
-% I don't know if there's a piano arrangement which is out of copyright.
-
 \header {
-    %\include "header.ly"
-    title = 	"Concerto in D minor"
-    subtitle = "Second movement. For two violins and strings (single violin transcription)"
+    title = 	"Concerto in D minor for 2 Violins"
+    subtitle = "Second movement"
+    subsubtitle= "Single violin transcription"
     composer =	"Johann Sebastian Bach (1685-1750)"
     opus =	"BWV 1043"
     % Want "Score" to appear in subtitle

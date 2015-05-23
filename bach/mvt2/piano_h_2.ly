@@ -5,16 +5,16 @@
 monetofive = {
      %1
     << { f4. ~ f8 e d c4. ~ c8 bes a } \\
-       { <a c>4 r8 <g bes>4 r8 <f f'>4 r8 <f d' f>4 r8 } >> |  
+       { <a c>4 r8 <g bes>4 r8 f4 r8 f4 r8 } >> |  
 
     g e f bes4. ~ bes8 a c f g16 f e d |
 
     << { e( d  e) c g c f( e  f) d b d g( f  g) e c e a( g  a) f g a} \\
-       { <e, g>4 r8 f4 r8 g4 r8 a4 r8 } >> |
+       { r4. f,4 r8 g4 r8 a4 r8 } >> |
 
-    b8 g' c,  ~ c a b!\trill c16( b  c) g e g f( g a bes  c) a-4 |       
+    b8 g' c,  ~ c a b!\trill c16( b  c) g e g f( g a bes  c) a_4 |       
 
-    f-2( es  f) bes d, f e( f g a  bes) g e( d  e) a c, e d( e f g  a) f |
+    f_2( es  f) bes d, f e( f g a  bes) g e( d  e) a c, e d( e f g  a) f |
 }
 
 pianoH =  \relative c'' {
@@ -25,7 +25,7 @@ pianoH =  \relative c'' {
     d( c  d) g bes, d c( d e f  g) e f8 f' <f, bes d> <g bes d>4 <e a cis>8 |
 
     << { d'4. ~ d8 c bes a4. ~ a8 g f } \\
-       { <f a>4 r8 g4 r8 <f c'>4 r8 <d f bes>4 r8 } >> |
+       { <f a>4 r8 g4 r8 f4 r8 <d f bes>4 r8 } >> |
 
     %8
     e8 cis d g4. ~ g16 e( fis g a  bes) c es( d c bes  a) |
@@ -41,7 +41,7 @@ pianoH =  \relative c'' {
    
 
     << { f'4. ~ f8 e d c4. ~ c8 bes a } \\
-       { <a c>4 r8 <g bes>4 r8 <f f'>4 r8 <f d' f>4 r8 } >> |  
+       { <a c>4 r8 <g bes>4 r8 f4 r8 f4 r8 } >> |  
 
     g e f bes4. ~ bes8 a bes c4 << { c8 ~ } \\ { ees,8 ~ } >> |
 
@@ -77,14 +77,14 @@ pianoH =  \relative c'' {
 
     g4 g,8 <g c g'>8 r8 g'8 <f, b f'>4 g8 <g c e>8 r8 e'8 |
 
-     d16 fis,( g a b  c) d f!( e d c  b) c4. r8 c4 ~|
+     d16 fis,( g a b_1  c) d f!( e d c  b) c4. r8 c4 ~|
 
     c16 a( b c d  e) f a( g f e  d) e( d  e) c g c f( e  f) c a c |
 
     %27
     g'( f  g) e c e a( g  a) f c f e4 r8 << { r8 e4 ~ } \\ { r4 cis8 } >> |
 
-    << { e16 cis( d e f  g) } \\ { a,4 r8 }  >>
+    << { e16 cis_2( d e f  g) } \\ { a,4 r8 }  >>
       a'16 c!( bes a g  f) g4. r4 <c, e>8 |
 
     <c f>4 a8 c,4 a''8 <d, fis>4 a8 d,4  a''8 |
@@ -130,7 +130,7 @@ pianoH =  \relative c'' {
     %46
     d16( c  d) g bes, d c( d e f  g) e f(  c) d bes c8 bes'-. a-. g-. |
 
-    f4 r8 d8-. c-. bes-. a16 c f g a bes << { c4  c8 ~} \\ { r4 es,8 ~} >>  |
+    f4 r8 d8-. c-. bes-. a16 c f g_1 a bes << { c4  c8 ~} \\ { r4 es,8 ~} >>  |
 
     << { c'8 bes f bes4 bes8 ~ bes a e a4 a8 ~ } \\
        { ees8 d r8 r4 d8 ~ d8 c r8 r4 c8 ~ } >> |
