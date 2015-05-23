@@ -1,16 +1,21 @@
 pianoL = \relative c {
 	\clef "bass"
 	
+	%1
 	r1
 	R1
 	
-	r2 r4 d\p
-	cis d a r
+	r2 r4 <d, d'> | 
+	<cis cis'> <d d'> <a a'> r | 
+
+	%5
 	R1
-	r4 a( b cis)
-	r4 b r2
-	R1
-	a2:8\p a2:
+	r4 a'( <g b> <fis cis'>) | 
+	r4 <b, b'> r4 \clef treble <b'' fis' b> |
+	<e a cis> <e gis b> <a, e' a>2 |
+
+	%9
+	\clef bass \repeat unfold 8 <a,, a'>8 |
 	a2: a2:_\cr
 	a2: a2:
 	a2: a2:
@@ -26,7 +31,9 @@ pianoL = \relative c {
 	< e a >) r r e8\p( < e a >) r r e(
 	< e a >) r r4 r2
 	
+}
 
+toto={
 
 	R1*3
 	

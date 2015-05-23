@@ -24,7 +24,6 @@ theSolo =  \relative d' {
 
 	a8)[ gis( a ais]\> b) a4\fermata g8\!
 
-	
 	%%% TUTTI %%%
 	
 	\appoggiatura a,8^\markup {  {Moderato assai.} \note #"4" #0.75 { = 80 }}

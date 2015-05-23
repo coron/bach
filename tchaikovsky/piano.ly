@@ -23,10 +23,10 @@
             \key d \major
 	    \time 4/4
 	    \theSolo
-	  \theSolob
-	  \theSoloc
-	  \macadence
-	  \theSolod
+	 % \theSolob
+	 % \theSoloc
+	 % \macadence
+	 % \theSolod
 	}
 
        \new PianoStaff <<

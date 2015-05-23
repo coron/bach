@@ -2,22 +2,31 @@ pianoH = \relative d' {
 	\clef "treble"
 	\key d \major
 	
-	fis2.\p e8( d									|
-	a4) d8( e fis4) b8( gis						|
-	a4) fis2 fis4									|
-	g! fis e r										|
-	e2. cis8( b										|
-	a4) cis8( d e4) fis8( cis					|
-	e4) d r2											|
-	
+	%1
+	fis2.\p e8( d a4) d8 ( e fis4) b8 ( gis	|
+	a4) fis2 <a, d fis>4 |
+	< a e' g!> <a d fis> <a cis e> r	|
 
-	R1*2
+	%4
+	e'2. cis8( b |
+	a4) cis8( d <b e>4) <ais fis'>8( cis |
+	e4)  <fis, b d>2 <fis'' b d>4 |
+
+	<e a cis> <d e b'> <cis e a>2 |
+
+	R1 \p
 	
-	cis8^>\p r cis2^> \appoggiatura d8( cis16)[(_\markup { "" \raise #-2.5 \italic cresc. }
-		b cis e])
-	d1
-	gis8^> r gis2^> \appoggiatura a8( gis16)[( fisis gis b])
-	< e, a >1\<
+	%10
+	cis,8 r cis2^> \appoggiatura d8( cis16)[(_\markup { "" \raise #-2.5 \italic cresc. }
+		b cis e]) |
+	
+	<< { a4 (f8 e8 d4 f8 a) } \\ { d,2 d2 } >> |
+
+	<gis d'>8  r gis2 \appoggiatura a8( gis16)[( fisis gis b]) |
+
+	<< { e4 (cis8 b a4) cis8 (e) } \\ { <e, a>2 a} >> |
+
+	%14
 	cis'8 r cis2\mf\! \appoggiatura d8( cis16)[(_\cr b cis e])
 	d1\<
 	gis8\f\! r gis2 \appoggiatura a8( gis16)[( fisis gis b])
@@ -30,7 +39,8 @@ pianoH = \relative d' {
 	a) r r gis\p( a) r r gis(
 	a) r r4 r2
 	
-
+}
+toto={
 
 
 	R1*3

@@ -1,7 +1,7 @@
-	title 				= "Violin-Konzert."
-	subtitle 			= "I. Allegro Moderato (v1.0)"
+	title 				= "Concerto pour Violon et Orchestre"
+	subtitle 			= "I. Allegro Moderato"
 	opus				= "Op. 35"
-	composer			= "P. Tschaikowsky. 1840-1893"
+	composer			= "P. Tschaikowsky (1840-1893)"
 	
  	mutopiatitle = "Violin Concerto in D Major"
  	mutopiacomposer = "TchaikovskyPI"
@@ -15,5 +15,4 @@
  	maintainerEmail = "spamguy@foxchange.com"
  	lastupdated = "2004/Jul/25"
 
- 	% tagline = "\\parbox{\\hsize}{\\thefooter\\quad\\small\\noindent\\hspace{\\stretch{1}} This music is part of the Mutopia project: \\hspace{\\stretch{1}} \\texttt{http://www.MutopiaProject.org/}\\\\ \\makebox[\\textwidth][c]{It has been typeset and placed in the public domain by " + \maintainer + ".} \\makebox[\\textwidth][c]{Unrestricted modification and redistribution is permitted and encouraged---copy this music and share it!}}"
- 	footer = "Mutopia-2004/07/25-466"
+ 
