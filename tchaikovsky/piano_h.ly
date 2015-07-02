@@ -27,7 +27,7 @@ pianoH = \relative d' {
 	<< { e4 (cis8 b a4) cis8 (e) } \\ { <e, a>2 a} >> |
 
 	%14
-	cis'8 r cis2\mf\! \appoggiatura d8( cis16)[(_\cr b cis e])
+	cis8 r cis2\mf\! \appoggiatura d8( cis16)[(_\cr b cis e])
 	d1\<
 	gis8\f\! r gis2 \appoggiatura a8( gis16)[( fisis gis b])
 	gis8 r gis2 \appoggiatura a8( gis16)[( fisis gis b])
@@ -39,8 +39,6 @@ pianoH = \relative d' {
 	a) r r gis\p( a) r r gis(
 	a) r r4 r2
 	
-}
-toto={
 
 
 	R1*3

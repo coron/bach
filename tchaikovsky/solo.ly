@@ -84,6 +84,11 @@ theSolo =  \relative d' {
 		cis8[ a'16-.) r32 a]( |
 
 
+
+}
+theSolobak=  {
+
+
 	\tuplet 3/2 { d,16[ fis a] } \tuplet 3/2 { b8[ cis16]) }
 		\tuplet 3/2 { fis,16[( a b] } 
 		\tuplet 3/2 { cis8[ d16]) } \tuplet 3/2 { a16[( d e] }
@@ -94,10 +99,6 @@ theSolo =  \relative d' {
 
 	e8\f[( g16-.) r32 g]( cis,8[ e16-.) r32 e]( b8[ e16-.) r32 e](
 		cis8[ a'16-.) r32 a]  |
-
-}
-theSolobak=  {
-
 
 	\tuplet 3/2 { d,16[ fis a] } \tuplet 3/2 { b8[ cis16]) } \tuplet 3/2 { fis,16[( a b] }
 		\tuplet 3/2 { cis8[ d16]) } \tuplet 3/2 { a16[( d e] } \tuplet 3/2 { eis8[ fis16]) }
@@ -130,13 +131,16 @@ theSolobak=  {
 		b[ dis! e fis] gis[ fis gis a] b[ cis d! e])\!
 	fis32[( e d cis]) b[( d b a]) gis[( b gis fis]) e[( fis d cis]) b[( d b a)
 		gis( b gis fis]) e[( fis d cis) b( d b a]
-	gis16)[ a8 gis16]~ gis[ fisis8 gis16]~( gis[ a ais) b-.] c-.[ cis-. d-. dis-.]
-	e8_\markup { \italic dim. } f4 e8~\> e f4(\! fis8\p)
+	
 }
 
 
 theSolob = \relative d' {
-	a'4\p(_\markup { \italic {con molto espr.} } gis) b16[( a gis b] a4)
+	a8) gis fisis gis~ ( gis16[ a ais) b-.] c-.[ cis-. d-. dis-.] |
+
+	e8_\markup { \italic dim. } f4 e8~\> e f4(\! fis8\p) |
+
+	a4\p(_\markup { \italic {con molto espr.} } gis) b16[( a gis b] a4)
 	b4( ais4) cis16[( b ais cis] b4)
 	\tuplet 3/2 { cis8[(\< d e] } \tuplet 3/2 { fis[ g! fis])\! } fis8(\> b4 fis8)\!
 
@@ -175,18 +179,20 @@ theSolob = \relative d' {
 	bes4( a) c16[( bes a c] bes)[ bes( d bes])
 	a4( gis) b!16[( a gis b] a)[ a( cis! a])
 	gis4 fis16[( gis a fis]) fis[( e dis fis] e)[ cis( bis d]
-	cis)[ a( gis b] a)[ e( dis fis] e)[ cis( bis d] cis)[ a gis b]
+	cis)[ a( gis b] a)[ e( dis fis] e)[ cis( bis d] cis) [ a (gis b]
 	
+
+		\override TupletBracket.transparent = ##f
+	a8->\ff) [\< b16( cis d e fis gis ] a b cis d \tuplet 5/4 {  e
+	fis gis a b ) \! }
 	}
 
 theSolobak = {
 
-	\override TupletBracket.transparent = ##f
-	a8->\ff)[\< b32( cis d e] \tuplet 11/8 { fis[ gis a b cis d e
-	fis gis a b])\! }
 
 
-		\tuplet 3/2 { cis8->[ d-> e->] } r4
+
+	
 	a,,,8->[ b32( cis d e] \tuplet 11/8 { fis[ gis a b cis d e fis gis a b]) }
 		\tuplet 3/2 { cis8->[ d-> e->] } r4
 	\tuplet 5/4 { e,,32[( fis gis a b] } \tuplet 7/4 { cis[ dis e fis gis a b]) }
@@ -282,7 +288,7 @@ theSoloc = \relative d' {
 	< d f >-.->[ d,-. a'-. d-.] < d f >[( f,) g-.^\( a-.] b-.[ cis-. d-. e-.] \grace { f[ g] } f[( d f a])^\)
 	< cis,! e >->[ a, a' < d f >] < cis e >->[( e, fis gis]) a-.[( b-. cis-. d-.]) < cis e >-.[ d-. cis-. e-.]
 	a->-.[ < f, a >-. < f a >-. b'-.->] c->[( a,) b'-.-> a-.->] g-.[ < g,, e' c' >-. b''-. < g,, e' c' >-.] c''-.[ < g,, e' c' >-. a''-.( g-.)]			|
-	< a, f' >-.[ < d, a' >-. < d a' >-. gis'-.] a[( a,) g'-. fis-.] e-.[ < a,, e' a >-. gis''-. < a,, e' a >-.]
+	< a, f' >-.[ < d, a' >-. < d a' >-. gis'-.] a[( a,) g'-. f-.] e-.[ < a,, e' a >-. gis''-. < a,, e' a >-.]
 		a''-.[ < a,, e' a >-. f''-.( e-.])
 	d32[( e f e d c b a]) b[( c d c b a g! f]) e16:32[ e': gis,: b:] e:[ gis: b: e:]
 	d,32[( e f e d c b a]) b[( c d c b a g! f]) e16:32[\> e': b:

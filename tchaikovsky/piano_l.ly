@@ -16,7 +16,7 @@ pianoL = \relative c {
 
 	%9
 	\clef bass \repeat unfold 8 <a,, a'>8 |
-	a2: a2:_\cr
+	a'2: a2:_\cr
 	a2: a2:
 	a2: a2:
 	a2: a2:
@@ -31,10 +31,6 @@ pianoL = \relative c {
 	< e a >) r r e8\p( < e a >) r r e(
 	< e a >) r r4 r2
 	
-}
-
-toto={
-
 	R1*3
 	
 	r2 r8 r4\fermata r8

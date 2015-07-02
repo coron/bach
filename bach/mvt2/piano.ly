@@ -18,6 +18,7 @@
 
 
 \score {
+
        <<
        \new Staff \with { 
        fontSize = #-2 
@@ -26,6 +27,7 @@
             \key f \major
 	    \time 12/8
 	    \soloViolinBC
+	           \set Staff.midiInstrument = "violin"
 	}
 
        \new PianoStaff <<
@@ -42,6 +44,9 @@
 	  }
         >>
        >>
+   \midi {
+      \tempo 4 = 60
+    }
 }
 
 %{

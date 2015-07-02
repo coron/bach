@@ -5,7 +5,7 @@
 
 \header {
     \include "header.ly"
-    subtitle =	"for two violins and strings (single violin transcription)"
+    %subtitle =	"for two violins and strings (single violin transcription)"
     filename = "single_violin.ly"
 }
 
